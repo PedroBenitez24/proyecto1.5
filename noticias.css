@@ -1,0 +1,143 @@
+·{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    min-height: 100vh;
+    margin: 0;
+    
+    flex-direction: column;
+    padding: 100px 20px 0;
+}
+
+.header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.nav {
+    display: fixed;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 30px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    width: max-content;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Macondo', cursive;
+
+
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+
+.nav-menu-link:hover {
+    background-color: #131120;
+    transition: 0.5s;
+}
+
+.h2 {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Macondo', cursive;
+    font-size: 3rem;
+    
+    color: #dbdcd7;
+}
+
+.article{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Macondo', cursive;
+    color: black;
+
+
+    font-size: 3rem;
+}
+.kaiju1{
+    padding-bottom: 1600px;
+    position: static;
+}
+.kaiju2 {
+    position: static;
+    padding: 0rem 0.50rem;
+padding-bottom: 1600px;
+
+}
+
+.kaiju3 {
+    position: static;
+    left: 38rem;
+    padding-bottom: 1600px;
+}
+
+.kaiju4 {
+    position: static;
+    padding-bottom: 1600px;
+    
+
+}
+
+.parrafo1 {
+  padding-bottom: 1200px;
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Macondo', cursive;
+    
+}
+
+.footer {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.footer .box {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.red-social a {
+    color: #fff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+
+    padding-left: 400px;
+}
+.red-social li{
+    display: inline;
+    text-decoration: none;
+}
+.red-social a:hover {
+    color: aqua;
+}
+
+.footer .grupo-2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 10px;
+    color: #fff;
+}
+
